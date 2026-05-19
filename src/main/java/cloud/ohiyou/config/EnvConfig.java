@@ -29,8 +29,6 @@ public class EnvConfig {
         tgChatId = System.getenv("TG_CHAT_ID");
         gotifyUrl = System.getenv("GOTIFY_URL");
         gotifyAppToken = System.getenv("GOTIFY_APP_TOKEN");
-        barkUrl = System.getenv("BARKURL");
-        barkDeviceKey = System.getenv("BARKDEVICEKEY");
     }
 
     public static EnvConfig get() {
