@@ -10,9 +10,7 @@ public enum PushPlatform {
     SERVER_CHAN("Server酱"),
     WECHAT_WORK("企业微信机器人"),
     DINGTALK("钉钉机器人"),
-    TELEGRAM("Telegram机器人"),
-    GOTIFY("Gotify"),
-    BARK("Bark");
+    TELEGRAM("Telegram机器人");
 
     private final String displayName;
 
